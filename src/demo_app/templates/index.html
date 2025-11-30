@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>NLI • Accent Detector</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/static/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">NLI • Accent Detector</div>
+    </div>
+  </header>
+
+  <main class="container main-card">
+    <h1>Analysis Result</h1>
+
+    <div id="result-area" class="result-card" style="display:none;">
+      <div class="result-row">
+        <div class="box">
+          <h4>Input</h4>
+          <div id="res-input" class="res-value">—</div>
+        </div>
+        <div class="box">
+          <h4>Detected Accent</h4>
+          <div id="res-accent" class="res-value accent">—</div>
+        </div>
+        <div class="box">
+          <h4>Confidence</h4>
+          <div id="res-confidence" class="res-value">—</div>
+        </div>
+      </div>
+
+      <div style="margin-top:18px;">
+        <h3>Recommended Cuisines</h3>
+        <ul id="res-cuisines"></ul>
+      </div>
+
+      <div style="margin-top:18px;">
+        <h3>Model Performance</h3>
+        <table class="perf-table">
+          <tbody>
+            <tr><td>MFCC Model Accuracy</td><td id="perf-mfcc">—</td></tr>
+            <tr><td>HuBERT Model Accuracy</td><td id="perf-hubert">—</td></tr>
+            <tr><td>Age Generalization</td><td id="perf-age">—</td></tr>
+            <tr><td>Sentence-level Accuracy</td><td id="perf-sent">—</td></tr>
+            <tr><td>Word-level Accuracy</td><td id="perf-word">—</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="margin-top:18px;"><a id="analyze-again" href="#" onclick="resetUI();return false;">← Analyze another audio</a></p>
+    </div>
+
+    <div class="recorder-card">
+      <p>Record a short English sentence (2–6 seconds) and click Predict.</p>
+      <div id="controls">
+        <button id="recordBtn">Start Recording</button>
+        <button id="stopBtn" disabled>Stop</button>
+        <button id="uploadBtn" disabled>Predict</button>
+      </div>
+      <p id="status" class="status">Idle</p>
+      <div id="predText" style="white-space:pre-wrap; margin-top:10px;"></div>
+    </div>
+  </main>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

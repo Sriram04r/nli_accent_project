@@ -167,15 +167,15 @@ nli_accent_project/
 
 8.Recommend cuisine for that region
 
-<h1>6. Outputs Generated</h1>
+| **File / Folder**       | **Description**                              |
+| ----------------------- | -------------------------------------------- |
+| **index_clean.csv**     | Clean metadata after preprocessing           |
+| **embeddings/**         | HuBERT feature vectors                       |
+| **saved_models/**       | Final trained classifier                     |
+| **results/**            | Evaluation results, logs, prediction reports |
+| **predictions_log.csv** | History of user uploads in the web app       |
+| **clean_failures.txt**  | Files that failed during preprocessing       |
 
-<h4>File</h4>                                 <h4>Description</h4>
-index_clean.csv	Clean metadata after preprocessing
-embeddings/	HuBERT feature vectors
-saved_models/	Final trained classifier
-results/	Evaluation, logs, prediction reports
-predictions_log.csv	History of user uploads in web app
-clean_failures.txt	Files that failed during preprocessing
 7. Accent → Cuisine Mapping Used in Your App
 Accent	State	Recommended Dishes
 Andhra	Andhra Pradesh	Pesarattu, Gongura, Biryani
@@ -228,6 +228,7 @@ Sriram Kola
 
 GitHub Repository:
 https://github.com/Sriram04r/nli_accent_project
+
 
 
 

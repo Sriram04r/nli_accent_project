@@ -169,7 +169,7 @@ nli_accent_project/
 
 <h1>6. Outputs Generated</h1>
 
-File	                                          Description
+<h4>File</h4>                                 <h4>Description</h4>
 index_clean.csv	Clean metadata after preprocessing
 embeddings/	HuBERT feature vectors
 saved_models/	Final trained classifier
@@ -228,6 +228,7 @@ Sriram Kola
 
 GitHub Repository:
 https://github.com/Sriram04r/nli_accent_project
+
 
 
 

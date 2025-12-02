@@ -2,14 +2,13 @@
   1. Project Overview
 </h1>
 
-This project aims to identify the native language (accent) of Indian English speakers using short speech audio clips.
+This project aims to <h3>identify the native language (accent)</h3> of Indian English speakers using short speech audio clips.
 The system is built using:
+- HuBERT-based deep speech embeddings
 
-HuBERT-based deep speech embeddings
+- Accent classification using a trained ML model (RandomForest/SVC)
 
-Accent classification using a trained ML model (RandomForest/SVC)
-
-Cuisine recommendation based on predicted region
+- Cuisine recommendation based on predicted region
 
 The project includes:
 
@@ -228,5 +227,6 @@ Sriram Kola
 
 GitHub Repository:
 https://github.com/Sriram04r/nli_accent_project
+
 
 

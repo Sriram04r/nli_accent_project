@@ -1,8 +1,11 @@
-Native Language Identification of Indian English Speakers Using HuBERT
+<h1>Native Language Identification of Indian English Speakers Using HuBERT</h1>
 
-<h1>
+<h2>NLP Mini Project | MFCC + HuBERT | Accent Classification System</h2>
+
+<h2>A complete end-to-end project built by Sriram Kola</h2>
+<h3>
   1. Project Overview
-</h1>
+</h3>
 
 This project aims to identify the native language (accent) of Indian English speakers using short speech audio clips.
 The system is built using:
@@ -30,9 +33,9 @@ The project includes:
 
 All development was done from scratch, including dataset cleaning, feature extraction, model training, and app deployment.
 
-<h1>
+<h2>
   2. Folder Structure
-</h1>
+</h2>
    <pre>
 nli_accent_project/
 │
@@ -81,11 +84,11 @@ nli_accent_project/
 ├── requirements.txt
 └── clean_failures.txt
 </pre>
-<h1>
+<h3>
 3. Tasks Completed (Actual Work in Your Project)
-</h1>
+</h3>
 
-<h3>HuBERT-Based Accent Classification</h3>
+<h4>HuBERT-Based Accent Classification</h4>
 
 - Extracted HuBERT Base embeddings for all cleaned audio files
 
@@ -95,7 +98,7 @@ nli_accent_project/
 
 - Generated prediction logs and confusion matrix
 
-<h3>Dataset Preprocessing</h3>
+<h4>Dataset Preprocessing</h4>
 
 - Cleaned raw audio
 
@@ -107,7 +110,7 @@ nli_accent_project/
 
 - Created clean index files
 
-<h3>MFCC + Baseline Classifier</h3>
+<h4>MFCC + Baseline Classifier</h4>
 
 - Extracted MFCC features
 
@@ -115,7 +118,7 @@ nli_accent_project/
 
 - Compared performance vs HuBERT
 
-<h3>Web Application Development</h3>
+<h4>Web Application Development</h4>
 
 - Flask-based audio upload/recording UI
 
@@ -125,7 +128,7 @@ nli_accent_project/
 
 - Displays region, accent, and recommended dishes
 
-<h3>Additional Completed Components</h3>
+<h4>Additional Completed Components</h4>
 
 - Word-level log storage
 
@@ -135,7 +138,7 @@ nli_accent_project/
 
 - Fully working interactive demo app
 
-<h1>4. Accent Classes Included</h1>
+<h3>4. Accent Classes Included</h3>
 
 - The model detects accents influenced by:
 
@@ -151,7 +154,7 @@ nli_accent_project/
 
 - Other regional accents (if added in future)
 
-<h1>5. Project Workflow</h1>
+<h3>5. Project Workflow</h3>
 
 1.Load and clean audio
 
@@ -169,7 +172,7 @@ nli_accent_project/
 
 8.Recommend cuisine for that region
 
-<h1>6.Outputs Generated</h1>
+<h3>6.Outputs Generated</h3>
 
 | **File / Folder**       | **Description**                              |
 | ----------------------- | -------------------------------------------- |
@@ -180,7 +183,7 @@ nli_accent_project/
 | **predictions_log.csv** | History of user uploads in the web app       |
 | **clean_failures.txt**  | Files that failed during preprocessing       |
 
-<h1>7. Accent → Cuisine Mapping Used in Your App</h1>
+<h3>7. Accent → Cuisine Mapping Used in Your App</h3>
    
 | **Accent**  | **State**      | **Recommended Dishes**      |
 | ----------- | -------------- | --------------------------- |
@@ -194,7 +197,7 @@ nli_accent_project/
 
 Your app automatically selects cuisine based on predicted accent.
 
-<h1>8. Web Application Description</h1>
+<h3>8. Web Application Description</h3>
 
 The Flask app supports:
 
@@ -213,7 +216,7 @@ The Flask app supports:
 The app is located in:
 src/demo_app/app.py
 
-<h1>9. Project Highlights</h1>
+<h3>9. Project Highlights</h3>
 
 - Fully functional accent detection system
 
@@ -229,8 +232,10 @@ src/demo_app/app.py
 
 
 
-GitHub Repository:
+<h3>
+  10.GitHub Repository:
 https://github.com/Sriram04r/nli_accent_project
+</h3>
 
 
 

@@ -133,42 +133,43 @@ nli_accent_project/
 
 - Fully working interactive demo app
 
-4. Accent Classes Included
+<h1>4. Accent Classes Included</h1>
 
-The model detects accents influenced by:
+- The model detects accents influenced by:
 
-Andhra Pradesh (Telugu-English)
+- Andhra Pradesh (Telugu-English)
 
-Gujarat (Gujarati-English)
+- Gujarat (Gujarati-English)
 
-Tamil Nadu (Tamil-English)
+- Tamil Nadu (Tamil-English)
 
-Kerala (Malayalam-English)
+- Kerala (Malayalam-English)
 
-Karnataka (Kannada-English)
+- Karnataka (Kannada-English)
 
-Other regional accents (if added in future)
+- Other regional accents (if added in future)
 
-5. Project Workflow
+<h1>5. Project Workflow</h1>
 
-Load and clean audio
+1.Load and clean audio
 
-Extract HuBERT embeddings
+2.Extract HuBERT embeddings
 
-Train a classification model
+3.Train a classification model
 
-Evaluate accuracy and generate reports
+4.Evaluate accuracy and generate reports
 
-Deploy model in Flask
+5.Deploy model in Flask
 
-Accept audio input from user
+6.Accept audio input from user
 
-Predict native language accent
+7.Predict native language accent
 
-Recommend cuisine for that region
+8.Recommend cuisine for that region
 
-6. Outputs Generated
-File	Description
+<h1>6. Outputs Generated</h1>
+
+File	                                          Description
 index_clean.csv	Clean metadata after preprocessing
 embeddings/	HuBERT feature vectors
 saved_models/	Final trained classifier
@@ -227,6 +228,7 @@ Sriram Kola
 
 GitHub Repository:
 https://github.com/Sriram04r/nli_accent_project
+
 
 
 

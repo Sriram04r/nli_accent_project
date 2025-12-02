@@ -2,7 +2,7 @@
   1. Project Overview
 </h1>
 
-This project aims to <h3>identify the native language (accent)</h3> of Indian English speakers using short speech audio clips.
+This project aims to identify the native language (accent) of Indian English speakers using short speech audio clips.
 The system is built using:
 - HuBERT-based deep speech embeddings
 
@@ -12,19 +12,19 @@ The system is built using:
 
 The project includes:
 
-Complete audio preprocessing
+- Complete audio preprocessing
 
-HuBERT feature extraction
+- HuBERT feature extraction
 
-Accent prediction for multiple Indian states
+- Accent prediction for multiple Indian states
 
-Sentence-level inference
+- Sentence-level inference
 
-A Flask-based web application
+- A Flask-based web application
 
-A cuisine recommendation module
+- A cuisine recommendation module
 
-Logging, cleaned dataset, and saved models
+- Logging, cleaned dataset, and saved models
 
 All development was done from scratch, including dataset cleaning, feature extraction, model training, and app deployment.
 
@@ -85,53 +85,53 @@ nli_accent_project/
 
 <h3>HuBERT-Based Accent Classification</h3>
 
-    Extracted HuBERT Base embeddings for all cleaned audio files
+- Extracted HuBERT Base embeddings for all cleaned audio files
 
-Built an ML classifier (RandomForest/SVM)
+- Built an ML classifier (RandomForest/SVM)
 
-Achieved strong accuracy across states
+- Achieved strong accuracy across states
 
-Generated prediction logs and confusion matrix
+- Generated prediction logs and confusion matrix
 
-Dataset Preprocessing
+<h3>Dataset Preprocessing</h3>
 
-Cleaned raw audio
+- Cleaned raw audio
 
-Removed silence and noise
+- Removed silence and noise
 
-Normalized and resampled to 16kHz
+- Normalized and resampled to 16kHz
 
-Split into train/test sets
+- Split into train/test sets
 
-Created clean index files
+- Created clean index files
 
-MFCC + Baseline Classifier
+<h3>MFCC + Baseline Classifier</h3>
 
-Extracted MFCC features
+- Extracted MFCC features
 
-Trained baseline classifier
+- Trained baseline classifier
 
-Compared performance vs HuBERT
+- Compared performance vs HuBERT
 
-Web Application Development
+<h3>Web Application Development</h3>
 
-Flask-based audio upload/recording UI
+- Flask-based audio upload/recording UI
 
-Predicts accent from HuBERT model
+- Predicts accent from HuBERT model
 
-Integrated cuisine recommendation logic
+- Integrated cuisine recommendation logic
 
-Displays region, accent, and recommended dishes
+- Displays region, accent, and recommended dishes
 
-Additional Completed Components
+<h3>Additional Completed Components</h3>
 
-Word-level log storage
+- Word-level log storage
 
-Prediction history saved to CSV
+- Prediction history saved to CSV
 
-Failures logged into clean_failures.txt
+- Failures logged into clean_failures.txt
 
-Fully working interactive demo app
+- Fully working interactive demo app
 
 4. Accent Classes Included
 
@@ -227,6 +227,7 @@ Sriram Kola
 
 GitHub Repository:
 https://github.com/Sriram04r/nli_accent_project
+
 
 
 

@@ -167,6 +167,8 @@ nli_accent_project/
 
 8.Recommend cuisine for that region
 
+<h1>6.Outputs Generated</h1>
+
 | **File / Folder**       | **Description**                              |
 | ----------------------- | -------------------------------------------- |
 | **index_clean.csv**     | Clean metadata after preprocessing           |
@@ -176,58 +178,57 @@ nli_accent_project/
 | **predictions_log.csv** | History of user uploads in the web app       |
 | **clean_failures.txt**  | Files that failed during preprocessing       |
 
-7. Accent → Cuisine Mapping Used in Your App
-Accent	State	Recommended Dishes
-Andhra	Andhra Pradesh	Pesarattu, Gongura, Biryani
-Gujarat	Gujarat	Dhokla, Thepla, Handvo
-Kerala	Kerala	Appam, Puttu, Kerala Sadya
-Tamil	Tamil Nadu	Idli, Dosa, Pongal
-Kannada	Karnataka	Bisi Bele Bath, Neer Dosa
-Hindi	North India	Paratha, Rajma Chawal
+<h1>7. Accent → Cuisine Mapping Used in Your App</h1>
+   
+| **Accent**  | **State**      | **Recommended Dishes**      |
+| ----------- | -------------- | --------------------------- |
+| **Andhra**  | Andhra Pradesh | Pesarattu, Gongura, Biryani |
+| **Gujarat** | Gujarat        | Dhokla, Thepla, Handvo      |
+| **Kerala**  | Kerala         | Appam, Puttu, Kerala Sadya  |
+| **Tamil**   | Tamil Nadu     | Idli, Dosa, Pongal          |
+| **Kannada** | Karnataka      | Bisi Bele Bath, Neer Dosa   |
+| **Hindi**   | North India    | Paratha, Rajma Chawal       |
+
 
 Your app automatically selects cuisine based on predicted accent.
 
-8. Web Application Description
+<h1>8. Web Application Description</h1>
 
 The Flask app supports:
 
-Audio upload (.wav/.mp3)
+- Audio upload (.wav/.mp3)
 
-Displaying accent prediction
+- Displaying accent prediction
 
-Showing confidence score
+- Showing confidence score
 
-Recommending dishes
+- Recommending dishes
 
-Logging predictions
+- Logging predictions
 
-Real-time interface with HTML + CSS + JS
+- Real-time interface with HTML + CSS + JS
 
 The app is located in:
 src/demo_app/app.py
 
-9. Project Highlights
+<h1>9. Project Highlights</h1>
 
-Fully functional accent detection system
+- Fully functional accent detection system
 
-Based entirely on HuBERT, a state-of-the-art speech model
+- Based entirely on HuBERT, a state-of-the-art speech model
 
-Customized dataset cleaning pipelines
+- Customized dataset cleaning pipelines
 
-Region-based cuisine recommendation
+- Region-based cuisine recommendation
 
-Clean and modular project structure
+- Clean and modular project structure
 
-End-to-end ML + Web integration
+- End-to-end ML + Web integration
 
-10. Author
-
-This project was completed individually by:
-
-Sriram Kola
 
 GitHub Repository:
 https://github.com/Sriram04r/nli_accent_project
+
 
 
 

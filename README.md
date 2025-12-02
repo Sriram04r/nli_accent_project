@@ -29,8 +29,9 @@ Logging, cleaned dataset, and saved models
 
 All development was done from scratch, including dataset cleaning, feature extraction, model training, and app deployment.
 
-2. Folder Structure
-
+<h1>
+  2. Folder Structure
+</h1>
    <pre>
 nli_accent_project/
 │
@@ -79,11 +80,13 @@ nli_accent_project/
 ├── requirements.txt
 └── clean_failures.txt
 </pre>
+<h1>
+3. Tasks Completed (Actual Work in Your Project)
+</h1>
 
-4. Tasks Completed (Actual Work in Your Project)
-HuBERT-Based Accent Classification
+<h3>HuBERT-Based Accent Classification</h3>
 
-Extracted HuBERT Base embeddings for all cleaned audio files
+    Extracted HuBERT Base embeddings for all cleaned audio files
 
 Built an ML classifier (RandomForest/SVM)
 
@@ -225,4 +228,5 @@ Sriram Kola
 
 GitHub Repository:
 https://github.com/Sriram04r/nli_accent_project
+
 

@@ -1,4 +1,6 @@
-1. Project Overview
+<h1>
+  1. Project Overview
+</h1>
 
 This project aims to identify the native language (accent) of Indian English speakers using short speech audio clips.
 The system is built using:
@@ -28,6 +30,8 @@ Logging, cleaned dataset, and saved models
 All development was done from scratch, including dataset cleaning, feature extraction, model training, and app deployment.
 
 2. Folder Structure
+
+   <pre>
 nli_accent_project/
 │
 ├── andhra_pradesh/              # Raw Andhra audio samples
@@ -74,8 +78,9 @@ nli_accent_project/
 ├── README.md
 ├── requirements.txt
 └── clean_failures.txt
+</pre>
 
-3. Tasks Completed (Actual Work in Your Project)
+4. Tasks Completed (Actual Work in Your Project)
 HuBERT-Based Accent Classification
 
 Extracted HuBERT Base embeddings for all cleaned audio files
@@ -220,3 +225,4 @@ Sriram Kola
 
 GitHub Repository:
 https://github.com/Sriram04r/nli_accent_project
+
